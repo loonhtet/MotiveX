@@ -124,14 +124,14 @@ nav {
   color: var(--bs-warning);
   background-color: var(--bs-black);
 
-  transform: translateX(-100px);
+  transform: translateX(-260%);
 }
 
 .carousel-control-next .chervon {
   color: var(--bs-warning);
   background-color: var(--bs-black);
 
-  transform: translateX(100px);
+  transform: translateX(260%);
 }
 
 .carousel-indicators {
@@ -261,6 +261,14 @@ nav {
 @media (max-width: 768px) {
   .about-img {
     height: 250px;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .carousel-control-next {
+    display: none;
   }
 }
 
