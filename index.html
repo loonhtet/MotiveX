@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo_motivex.png" type="image/x-icon" />
+
+    <title>Motive X</title>
+
+    <!-- AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Start Navbar  -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <a href="/" class="navbar-brand">
+          <img
+            src="./assets/logo_motivex.png"
+            alt="logo"
+            width="35px"
+            height="35px"
+            class="rounded-circle"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-capitalize">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link text-capitalize">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#plan" class="nav-link text-capitalize">plan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial" class="nav-link text-capitalize"
+                >testimonial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link text-capitalize">news</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="nav-link text-uppercase">faq</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-capitalize">contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex gap-2 my-3 my-md-0">
+            <button
+              class="btn btn-outline-warning"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#login"
+              aria-controls="offcanvasRight"
+            >
+              Login
+            </button>
+            <button
+              class="btn btn-warning"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#signup"
+              aria-controls="offcanvasRight"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar  -->
+
+    <!-- Start Hero Section  -->
+    <section class="hero">
+      <div class="container text-white mb-5 pb-5">
+        <div data-aos="fade-up-right">
+          <h1 class="display-1 fw-medium text-uppercase">
+            Be fitness <br /><span class="display-4 fw-medium"
+              >& be strong</span
+            >
+          </h1>
+          <p class="col-12 col-md-6 my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            maiores beatae vitae in voluptas debitis officiis voluptatibus
+            nostrum soluta fuga!
+          </p>
+        </div>
+        <button
+          data-aos="fade-up"
+          class="btn btn-warning text-uppercase fw-bold d-flex align-items-center gap-2"
+        >
+          Join Us
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class=""
+            width="15px"
+            height="15px"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Start About Section  -->
+    <section id="about">
+      <div class="container pt-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">About Us</p>
+          <h1 class="text-capitalize">Who we are</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div class="row mt-5">
+          <div
+            data-aos="fade-up-right"
+            class="col-12 col-md-6 align-content-center"
+          >
+            <p class="fs-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+              necessitatibus. Vitae dolores nesciunt necessitatibus beatae.
+            </p>
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              aliquam id dolor vero officiis quod amet sequi neque, repellat
+              fugiat inventore ipsum molestiae, velit earum!
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              data-aos="fade-up-left"
+              src="https://images.unsplash.com/photo-1517963628607-235ccdd5476c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="w-100 rounded-3 about-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section  -->
+
+    <!-- Start Services Section  -->
+    <section id="services">
+      <div class="pt-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">services</p>
+          <h1 class="text-capitalize">what we offer</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-12 col-lg-6 align-content-center">
+              <img
+                data-aos="fade-up-right"
+                src="https://static.vecteezy.com/system/resources/previews/047/739/499/non_2x/great-body-builder-and-gym-trainer-posing-in-stretch-isolated-on-transparent-background-free-png.png"
+                alt=""
+                class="w-100 rounded img-fluid mb-4 mb-md-0"
+              />
+            </div>
+
+            <div class="container col-11 col-lg-6">
+              <div
+                data-aos="fade-up"
+                class="row align-items-center bg-gradient text-center mb-2 rounded-3"
+              >
+                <div class="col-12 col-md-6 p-2">
+                  <h1 class="text-capitalize fs-4">Retail Merchandise</h1>
+                  <p class="fs-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Provident iste corrupti fugiat sit ab. Accusamus!
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="service-img rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="row align-items-center bg-gradient text-center mb-2 rounded-3"
+              >
+                <div class="col-12 col-md-6 p-2">
+                  <h1 class="text-capitalize fs-4">Online Presonal training</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Provident iste corrupti fugiat sit ab. Accusamus!
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1526401485004-46910ecc8e51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="service-img rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="row align-items-center bg-gradient text-center mb-2 rounded-3"
+              >
+                <div class="col-12 col-md-6 p-2">
+                  <h1 class="text-capitalize fs-4">personal training</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Provident iste corrupti fugiat sit ab. Accusamus!
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1517837414457-37b44cea4818?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="service-img rounded-3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section  -->
+
+    <!-- Start Plan Section  -->
+    <section id="plan" style="background-color: #06191b">
+      <div class="container py-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">pricing</p>
+          <h1 class="text-capitalize">membership plans</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div class="row gap-2 mt-5 align-items-center">
+          <div class="row g-2">
+            <div class="col-12 col-lg-4 col">
+              <div
+                data-aos="fade-up-right"
+                class="card border-2 border-warning text-white"
+                style="background-color: #082124"
+              >
+                <div class="card-body text-center">
+                  <div class="card-header bg-transparent">
+                    $ <span class="fs-1 fw-bold">10</span> /day
+                  </div>
+                  <div class="alert bg-warning text-capitalize fw-bold">
+                    One Day Training
+                  </div>
+                  <ul class="list-group" style="background-color: #082124">
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Unlimited Gym Access
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Group Fitness Classes
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Personal Trainer Sessions
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 text-white"
+                    >
+                      Nutritional Consultation
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col">
+              <div
+                data-aos="fade-up"
+                class="card border-2 border-danger text-white recommended"
+                style="background-color: #082124"
+              >
+                <div class="card-body text-center">
+                  <div class="card-header bg-transparent">
+                    $ <span class="fs-1 fw-bold">79</span> /month
+                  </div>
+                  <div class="alert bg-danger text-capitalize fw-bold">
+                    12 months membership
+                  </div>
+                  <ul class="list-group" style="background-color: #082124">
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Unlimited Gym Access
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Group Fitness Classes
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Personal Trainer Sessions
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Nutritional Consultation
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Access to Sauna and Steam Room
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Pool Access
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Discount on Merchandise
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 text-white"
+                    >
+                      <button class="btn btn-danger mt-2">sign up now</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col">
+              <div
+                data-aos="fade-up-left"
+                class="card border-2 border-warning text-white"
+                style="background-color: #082124"
+              >
+                <div class="card-body text-center">
+                  <div class="card-header bg-transparent">
+                    $ <span class="fs-1 fw-bold">99</span> /month
+                  </div>
+                  <div class="alert bg-warning text-capitalize fw-bold">
+                    monthly payment
+                  </div>
+                  <ul class="list-group" style="background-color: #082124">
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Unlimited Gym Access
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Group Fitness Classes
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Personal Trainer Sessions
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Nutritional Consultation
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 border-bottom border-1 text-white"
+                    >
+                      Access to Sauna and Steam Room
+                    </li>
+                    <li
+                      class="list-group-item bg-transparent border-0 text-white"
+                    >
+                      Pool Access
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Plan Section  -->
+
+    <!-- Start Testimonial Section  -->
+
+    <section id="testimonial">
+      <div class="container py-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">testimonial</p>
+          <h1 class="text-capitalize">what our client say</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div id="carousel-testimonial" class="carousel slide mt-5">
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              data-bs-target="#carousel-testimonial"
+              data-bs-slide-to="0"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              data-bs-target="#carousel-testimonial"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              data-bs-target="#carousel-testimonial"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <div data-aos="fade-up" class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row gy-3">
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Emma</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Jennie</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://images.unsplash.com/photo-1550259979-ed79b48d2a30?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row gy-3">
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Noah</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://images.unsplash.com/photo-1549476464-37392f717541?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Jully</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row gy-3">
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Gwan</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://plus.unsplash.com/premium_photo-1666736569319-47cdd2b0f444?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                  <div class="row rounded-2" style="background-color: #06191b">
+                    <div class="col p-4">
+                      <h1 class="text-capitalize h1">Ryan</h1>
+                      <span class="text-uppercase text-warning fw-semibold my-2"
+                        >client</span
+                      >
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Incidunt blanditiis id sint laudantium nulla
+                        explicabo enim, eos asperiores rerum architecto.
+                      </p>
+                      <div class="d-flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="star"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <img
+                        class="rounded-end-2 testi-img"
+                        src="https://images.unsplash.com/photo-1591741543032-bf439b4fd46c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#carousel-testimonial"
+            data-bs-slide="prev"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="chervon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#carousel-testimonial"
+            data-bs-slide="next"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="chervon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Testimonial Section  -->
+
+    <!-- Start News Section  -->
+
+    <section id="news" style="background-color: #06191b">
+      <div class="container py-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">news</p>
+          <h1 class="text-capitalize">our latest news</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div class="row mt-5 g-4">
+          <div data-aos="fade-up-right" class="col-lg-4">
+            <div class="card text-white" style="background-color: #082124">
+              <img
+                src="https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-uppercase text-warning">
+                  Blog Category One
+                </h6>
+                <h5 class="card-title text-capitalize">how to fit your body</h5>
+                <p class="card-text my-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  ipsam qui quidem omnis consectetur vero eum quam! Doloribus,
+                  vero cupiditate!
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    13m
+                    <span class="ms-2">| Sara</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"
+                      />
+                    </svg>
+
+                    <span> 52 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="col-lg-4">
+            <div class="card text-white" style="background-color: #082124">
+              <img
+                src="https://images.unsplash.com/photo-1571019613914-85f342c6a11e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-uppercase text-warning">
+                  Blog Category One
+                </h6>
+                <h5 class="card-title text-capitalize">how to fit your body</h5>
+                <p class="card-text my-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  ipsam qui quidem omnis consectetur vero eum quam! Doloribus,
+                  vero cupiditate!
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    13m
+                    <span class="ms-2">| Sara</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"
+                      />
+                    </svg>
+
+                    <span> 52 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-lg-4">
+            <div class="card text-white" style="background-color: #082124">
+              <img
+                src="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-uppercase text-warning">
+                  Blog Category One
+                </h6>
+                <h5 class="card-title text-capitalize">how to fit your body</h5>
+                <p class="card-text my-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  ipsam qui quidem omnis consectetur vero eum quam! Doloribus,
+                  vero cupiditate!
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    13m
+                    <span class="ms-2">| Sara</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      width="20px"
+                      height="20px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"
+                      />
+                    </svg>
+
+                    <span> 52 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End News Section  -->
+
+    <!-- Start FAQ Section  -->
+    <section id="faq">
+      <div class="container py-5 text-white">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="text-capitalize text-warning">frequently ask questions</p>
+          <h1 class="text-uppercase">faq</h1>
+          <div class="dash"></div>
+        </div>
+
+        <div data-aos="fade-up" class="accordion mt-5">
+          <div class="accordion-item text-white border-0">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button text-capitalize border border-1 text-white shadow-none"
+                style="background-color: #06191b"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                how to sign up?
+              </button>
+            </h3>
+
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-present=""
+            >
+              <div
+                class="accordion-body border border-1 border-top-0"
+                style="background-color: #0b2124"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae praesentium est laborum velit asperiores repellat
+                  hic accusamus deserunt quaerat magni.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item text-white border-0">
+            <div class="accordion-header">
+              <button
+                class="accordion-button collapsed text-capitalize text-white border border-1 shadow-none"
+                style="background-color: #06191b"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                How to contact?
+              </button>
+            </div>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-present=""
+            >
+              <div
+                class="accordion-body border border-1 border-top-0"
+                style="background-color: #0b2124"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,
+                  voluptatibus eos temporibus saepe, beatae, sunt nesciunt
+                  reprehenderit odit dignissimos quam voluptas repellendus minus
+                  ipsam laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item text-white border-0">
+            <div class="accordion-header">
+              <button
+                class="accordion-button collapsed text-capitalize text-white border border-1 shadow-none"
+                style="background-color: #06191b"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                How to pay?
+              </button>
+            </div>
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div
+                class="accordion-body border border-1 border-top-0"
+                style="background-color: #0b2124"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore iste numquam aliquam quaerat vero sit exercitationem
+                  accusantium saepe sapiente ut?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End FAQ Section  -->
+
+    <!-- Start Contact Section  -->
+    <section id="contact" class="contact">
+      <div class="container py-5 text-white h-100">
+        <div
+          data-aos="fade-up"
+          class="d-flex flex-column justify-content-center align-items-center h-100"
+        >
+          <p class="text-capitalize text-warning">contact us</p>
+          <h1 class="text-uppercase">+959 942 343 495</h1>
+          <div class="dash"></div>
+          <button type="button" class="btn btn-warning text-capitalize mt-5">
+            Call Us Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section  -->
+
+    <!-- Start Footer Section  -->
+
+    <footer id="footer">
+      <div class="container py-5 text-white">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              data-aos="fade-up"
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="text-capitalize text-warning">Gym & fitness</p>
+              <div class="dash mt-0"></div>
+            </div>
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores quas architecto, nulla, aut quis in tenetur rerum rem eos
+              dolore fugit animi! Debitis eligendi quas sequi voluptas quisquam
+              quibusdam consequuntur saepe, veniam vero autem voluptate!
+              Asperiores nemo impedit ullam!
+            </p>
+
+            <div class="d-flex gap-3">
+              <a href="#" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25px"
+                  height="25px"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25px"
+                  height="25px"
+                  fill="currentColor"
+                  class="bi bi-twitter-x"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25px"
+                  height="25px"
+                  fill="currentColor"
+                  class="bi bi-youtube"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25px"
+                  height="25px"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              data-aos="fade-up"
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="text-capitalize text-warning">quick contact</p>
+              <div class="dash mt-0"></div>
+            </div>
+
+            <ul class="list-group mt-5 gap-4">
+              <li
+                class="list-group-item d-flex align-items-center gap-2 bg-transparent text-white border-0 p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffc107"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  />
+                </svg>
+
+                <span>No. 132, Yangon, Myanmar</span>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-center gap-2 bg-transparent text-white border-0 p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffc107"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                  />
+                </svg>
+
+                <a href="#" class="nav-link">+95 954 534 545</a>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-center gap-2 bg-transparent text-white border-0 p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffc107"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                  />
+                </svg>
+
+                <a href="#" class="nav-link">gymfitness@gmail.com</a>
+              </li>
+              <li
+                class="list-group-item d-flex align-items-center gap-2 bg-transparent text-white border-0 p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffc107"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                  />
+                </svg>
+
+                <a href="#" class="nav-link">www.gymfitness.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              data-aos="fade-up"
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="text-capitalize text-warning">send us message</p>
+              <div class="dash mt-0"></div>
+            </div>
+
+            <form class="mt-5">
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    width="20px"
+                    height="20px"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+                </span>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Your Email"
+                  class="bg-dark text-white"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    width="20px"
+                    height="20px"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                    />
+                  </svg>
+                </span>
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Enter Your Message"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="flex justify-content-center align-items-center btn btn-warning float-end fw-semibold"
+              >
+                Send
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div>
+          <p class="pt-5 mt-5 text-center">
+            ©Copyright & all right reserved by Loon Htet
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer Section  -->
+
+    <!-- Start Offcanvas Section  -->
+
+    <div
+      id="login"
+      class="offcanvas offcanvas-end text-white"
+      style="background-color: #06191b"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-white bg-warning"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <h4>Login Form</h4>
+
+          <form action="" class="d-grid gap-2 mt-4">
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                  />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 5.25a3 3 0 0 1 3 3m3 0a6 6 0 0 1-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1 1 21.75 8.25Z"
+                  />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Password" />
+            </div>
+
+            <input type="submit" value="Login" class="btn btn-warning mt-4" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="signup"
+      class="offcanvas offcanvas-end text-white"
+      style="background-color: #06191b"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-white bg-warning"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <h4>Registration Form</h4>
+
+          <form action="" class="d-grid gap-2 mt-4">
+            <div class="input-group flex-nowrap text-bg-dark">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                  />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Username" />
+            </div>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                  />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 5.25a3 3 0 0 1 3 3m3 0a6 6 0 0 1-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1 1 21.75 8.25Z"
+                  />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Password" />
+            </div>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  width="18px"
+                  height="18px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                  />
+                </svg>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Confirm Password"
+              />
+            </div>
+
+            <input type="submit" value="Sign Up" class="btn btn-warning mt-4" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Offcanvas Section  -->
+
+    <!-- Start GoBack  -->
+
+    <a href="#" class="goback-btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="2.5"
+        stroke="#000000"
+        width="30px"
+        height="30px"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m4.5 15.75 7.5-7.5 7.5 7.5"
+        />
+      </svg>
+    </a>
+
+    <!-- End GoBack  -->
+
+    <script>
+      AOS.init({
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 700, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false,
+      });
+    </script>
+  </body>
+</html>
